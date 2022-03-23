@@ -29,7 +29,7 @@ if cam.isOpened():
             #         x1,y1= x2,y2
             
             frame = cv.add(canvas,frame)
-            frame = np.hstack((frame,canvas))
+            #frame = np.hstack((frame,canvas))
             #cv.imshow("hand movement",cv.resize(frame,None,fx=0.6,fy=0.6))
             cv.imshow("air canvas",frame)
             #cv.imshow("a",can)
